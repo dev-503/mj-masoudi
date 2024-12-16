@@ -9,4 +9,3 @@ COPY assets/images/* /usr/share/nginx/html/
 EXPOSE 443
 
 # Start Nginx when the container starts
-CMD ["nginx", "-g", "daemon off;"]
